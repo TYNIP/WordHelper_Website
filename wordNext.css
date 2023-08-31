@@ -1,0 +1,136 @@
+html{
+  background-color: #53545a;
+}
+body{
+  margin: 0 10vh;
+  border: 5px solid white;
+}
+
+@media only screen and (max-width: 600px){
+  body{
+    margin: 0;
+  }
+}
+header {
+    text-align: center;
+    background-color: rgb(156, 230, 211);
+    padding: 10px;
+  }
+  
+  main {
+    background-color: rgb(242, 230, 207);
+    height: 900px;
+    text-align: center;
+  }
+  
+  h1 {
+    height: 38px;
+    font-family: Work Sans, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #1f233e;
+    padding-top: 40px;
+    margin: 0;
+    text-decoration: underline;
+  }
+  h2{
+    font-weight: 200;
+    font-size: 20px;
+  }
+  #prompt{
+    text-decoration:none;
+    color:rgb(51, 85, 85);
+    font-size: 28px;
+  }
+  
+  .container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #input {
+    width: 219px;
+    height: 37px;
+    border-radius: 3.2px;
+    border: solid 0.8px rgb(17, 76, 95);
+    background-color: inherit;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  #submit {
+    width: 125px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: inherit;
+    background-color: rgb(7, 153, 182);
+    margin: 30px 10% 0 25%;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: rgb(156, 230, 211);
+  }
+  
+  #responseField {
+    min-width: 191px;
+    min-height: 120px;
+    background-color: #1f233e;
+    margin: auto;
+    margin-top: 25px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgb(156, 230, 211);
+    overflow-wrap: break-word;
+    padding: 20px;
+  }
+  
+  li {
+    text-align: center;
+    margin: 0 25% 0 25%;
+  }
+  
+  #submit:hover, #toggle:hover{
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  #submit:active, #toggle:active{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ef6b68;
+    cursor: pointer;
+  }
+  
+  #shorten {
+    visibility: hidden;
+  }
+  
+  #toggle {
+    width: max-content;
+    height: 30px;
+    border-radius: 2px;
+    border-color: inherit;
+    background-color: rgb(7, 153, 182);
+    margin: 30px;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: rgb(156, 230, 211);
+  }
