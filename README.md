@@ -10,10 +10,11 @@ To access the "Word Describe" webpage, click the button at the bottom of the "Wo
 uses the Datamuse API's /word endpoint, but with the query parameter sl. The goal of this page is to assist you in finding words that are pronounced similarly to the input word. 
 To utilize this function, type in a word, and the API will provide a list of words that sound similar.
 
-## General
+# General
 Both functionalities were implemented using JavaScript promises. The website's purpose is to aid in discovering word meanings and finding words with similar pronunciations using the Datamuse API's features.
+- Website with academic purposes
 
-Website: https://tynip.github.io/Word_Helper_Website/
+Website: [WebPage](https://tynip.github.io/Word_Helper_Website/)
 
 ### References:
 - API
