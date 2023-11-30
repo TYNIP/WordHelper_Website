@@ -1,4 +1,4 @@
-# Word_Helper_Website
+# WordHelper Website
 Word Helper is a simple website that utilizes the Datamuse API to assist with finding word meanings and words pronounced similarly. The website consists of two webpages:
 
 ## Word Next
