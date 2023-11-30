@@ -14,7 +14,7 @@ To utilize this function, type in a word, and the API will provide a list of wor
 Both functionalities were implemented using JavaScript promises. The website's purpose is to aid in discovering word meanings and finding words with similar pronunciations using the Datamuse API's features.
 - Website with academic purposes
 
-Website: [WebPage](https://tynip.github.io/Word_Helper_Website/)
+Website: [WebPage](https://tynip.github.io/WordHelper_Website/)
 
 ### References:
 - API
